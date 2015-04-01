@@ -13,7 +13,7 @@ import os
 import yaml
 
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
-CONFIG_PATH = os.path.join(BASE_PATH, '../configs/local')
+CONFIG_PATH = os.path.join(BASE_PATH, '../configs')
 
 def launch_from_config(conn, instance_config_name, config_file_name):
     spot_requests_config = get_config(config_file_name)
