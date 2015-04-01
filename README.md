@@ -1,2 +1,2 @@
-# spot_launcher
-Simple script to launch AWS spot requests
+# Spot Launcher
+Simple script to launch AWS spot instances
