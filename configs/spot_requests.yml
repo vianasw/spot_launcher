@@ -1,0 +1,16 @@
+database:
+  ami_id: 'ami-9a562df2'
+  count: 1 
+  price: 0.02
+  key_name: 'amazonKeyName'
+  type: 'one-time'
+  instance_type: 'c3.large'
+  placement_group: 'database'
+  security_groups: ['security_group_id']
+  subnet_id: 'subnet_id'
+  instance_profile_name: 'instance_profile_name'
+  tags:
+    environment: 'alpha'
+  mapping:
+    ephemeral0: '/dev/sdb'
+    ephemeral1: '/dev/sdc'
